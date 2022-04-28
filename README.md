@@ -1,3 +1,5 @@
+<img src="https://code.hnldesign.nl/mobile-console/logo.png">
+
 # mobileConsole
 mobileConsole<sup>v2</sup> is a further refinement (complete rewrite) of a JavaScript console-emulator I wrote, which provides a way to view console output on devices that don't support this (visually) natively/easily (such as Safari on iOS). It extends JavaScript's native console to display a visual (HTML) console inside the webpage.
 
