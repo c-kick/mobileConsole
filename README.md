@@ -13,5 +13,9 @@ See it in action at https://code.hnldesign.nl/demo/hnl.MobileConsole.v2.html. Yo
 
 Include the JavaScript file into the <code>&lt;head&gt;</code> section of your page, and make sure it's the **first** script loaded (or at least *before* other scripts of which you need to be able to see console logging). A separate CSS is required for proper styling/theming/positioning of the console. This file is loaded through JavaScript, so you only need to include the js file in your project. Just make sure the CSS file resides in the same path as the JavaScript file.
 
+### Via CDN (jsDelivr)
+
+You can include https://cdn.jsdelivr.net/gh/c-kick/mobileConsole/hnl.mobileconsole.min.js, which always gets you the latest version. The required CSS is loaded automatically (from the jsDelivr CDN) by the script.
+
 ## Acknowledgements
 mobileConsolev2 uses stacktracejs (bundled) for resolving stack traces across all browsers.
