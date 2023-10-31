@@ -17,5 +17,8 @@ Include the JavaScript file into the <code>&lt;head&gt;</code> section of your p
 
 You can include https://cdn.jsdelivr.net/gh/c-kick/mobileConsole/hnl.mobileconsole.min.js, which always gets you the latest version. The required CSS is loaded automatically (from the jsDelivr CDN) by the script.
 
+Example:
+`<script src="https://cdn.jsdelivr.net/gh/c-kick/mobileConsole/hnl.mobileconsole.min.js"></script>`
+
 ## Acknowledgements
 mobileConsolev2 uses stacktracejs (bundled) for resolving stack traces across all browsers.
