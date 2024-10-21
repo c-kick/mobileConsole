@@ -21,10 +21,10 @@ Example:
 `<script src="https://cdn.jsdelivr.net/gh/c-kick/mobileConsole/hnl.mobileconsole.min.js"></script>`
 
 ### Userscript (using Tampermonkey or Violentmonkey)
-Use the provided userscript `mobileConsole.user.js`. 
+Use the provided userscript [`mobileConsole.user.js`](https://cdn.jsdelivr.net/gh/c-kick/mobileConsole/mobileConsole.user.js). 
 
 Notes
-- if you are using @grant unsafeWindow in your script you have to log with unsafeWindow.console.log since just console.log won't be captured
+- if you are using `@grant unsafeWindow` in your script you have to log with `unsafeWindow.console.log` since just `console.log` won't be captured
 - any logs before mobileConsole is loaded won't be captured so you might have to delay the execution of your script
 
 ## Acknowledgements
