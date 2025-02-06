@@ -131,7 +131,6 @@ div.mobile-console div.mc-scroller-wrapper div.mc-scroller-content {
   place-content: flex-start;
   place-self: stretch;
   flex-basis: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -140,8 +139,7 @@ div.mobile-console div.mc-scroller-wrapper span.mc-row {
   padding: 0 8px 0 0;
   display: flex;
   overflow: hidden;
-  -webkit-animation: fadein 100ms normal forwards linear;
-          animation: fadein 100ms normal forwards linear;
+  animation: fadein 100ms normal forwards linear;
   max-height: var(--line-height);
   max-width: 100%;
   box-shadow: 0 1px 0 0 inset var(--border-color-row);
@@ -166,7 +164,6 @@ div.mobile-console div.mc-scroller-wrapper span.mc-row .mc-row-firstline {
   display: block;
 }
 div.mobile-console div.mc-scroller-wrapper span.mc-row.mc-row-expanded {
-  max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
 }
@@ -219,7 +216,6 @@ div.mobile-console div.mc-scroller-wrapper span.mc-row > span.mc-message pre {
   font-size: inherit !important;
 }
 div.mobile-console div.mc-scroller-wrapper span.mc-row.mc-row-expanded > span.mc-message {
-  max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
   overflow: visible;
@@ -360,14 +356,6 @@ div.mobile-console div.mc-input span.mc-button > svg {
 div.mobile-console div.mc-input span.mc-button:last-child {
   margin-right: 4px;
 }
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes fadein {
   from {
     opacity: 0;
@@ -376,5 +364,4 @@ div.mobile-console div.mc-input span.mc-button:last-child {
     opacity: 1;
   }
 }
-
 /*# sourceMappingURL=hnl.mobileconsole.css.map */
